@@ -1,5 +1,6 @@
 {
   "installation": {
     "version": "23.2.0"
-  }
+  },
+  "analytics": true
 }
