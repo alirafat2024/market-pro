@@ -8,6 +8,12 @@
     },
     {
       "path": "./apps/Backend"
+    },
+    {
+      "path": "./apps/Frontend-e2e"
+    },
+    {
+      "path": "./apps/Frontend"
     }
   ],
   "compilerOptions": {}
