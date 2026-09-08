@@ -6,6 +6,8 @@ import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
 import { join } from 'path';
 import { ProductsModule } from './products/products.module';
 import { PrismaModule } from './prisma.module';
+import { CheckoutModule } from './checkout/checkout.module';
+import { OrdersModule } from './orders/orders.module';
 @Module({
   imports: [
     GraphQLModule.forRoot<ApolloDriverConfig>({
@@ -15,6 +17,8 @@ import { PrismaModule } from './prisma.module';
 
     PrismaModule,
     ProductsModule,
+    CheckoutModule,
+    OrdersModule,
   ],
   controllers: [AppController],
   providers: [AppService],
